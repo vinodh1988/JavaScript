@@ -1,0 +1,52 @@
+.container{
+    width: 100%;
+    overflow: hidden;
+}
+
+#all{
+    min-height: 700px;
+    width: 45%;
+    padding: 10px;
+    margin:20px;
+    border: 2px solid  gray;
+    background-color: navajowhite;
+    color: black;
+    float: left;
+}
+
+#matched{
+    min-height: 700px;
+    width: 45%;
+    padding: 10px;
+    margin:20px;
+    border: 2px solid  gray;
+    background-color: cadetblue;
+    color: black;
+    float: left;
+}
+
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.abox{
+    background-color:darkcyan;
+    color: white;
+    border-left: 2px solid white;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}
+
+.mbox{
+    background-color:white;
+    color: darkcyan;
+    border-left: 2px solid darkblue;
+    padding: 5px;
+    margin: 10px;
+    float: left;
+}

@@ -1,0 +1,18 @@
+#tablebox{
+    background-color: darkcyan;
+    color: white;
+    padding: 30px;
+    height: 400px;
+    width: 700px ;
+    font-size: 40px;
+    font-family: Arial;
+    margin: 50px;
+}
+
+h3{
+    color: lightsalmon;
+}
+
+h5{
+    color: darkred;
+}

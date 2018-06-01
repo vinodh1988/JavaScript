@@ -1,0 +1,26 @@
+
+
+  ^  -- Beginning with
+  $  -- ending with
+  [] - it will have set of alternative characters to be checked
+     ex:  [abc] -- either a or b or c
+	      [aA]
+  . -- any charectar
+  + -- one or more occurances
+  * -- zero or more occurances
+  ()-- set of alternate strings
+      ex (ja|pa|ka)
+	  
+  {n} - n occurences
+      
+	  [oe]{2}
+	  
+	  ee
+	  oo
+	  oe
+	  eo
+	  
+   {m,n} -- min m occurances ,n occurances
+   
+   
+   ^[a-zA-Z][a-zA-z\.0-9_]+@[a-z]{3,}\.[a-z]{2,5}$
